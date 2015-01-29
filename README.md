@@ -1,7 +1,7 @@
 # XQDemo
 
 #Introduction
-    This is a _demo_ which I used in my projects,the code is not perfect.
+    This is a *demo* which I used in my projects,the code is not perfect.
     The goal is let IOS dev to solve problems.I wish what I update may help you.You can custom code whatever you like.
 
 ##OneFinger and HomePage
