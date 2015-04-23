@@ -7,7 +7,7 @@
 //
 
 #import "HTTPRequestManager.h"
-#import "AFHTTPRequestOperationManager.h"
+#import <AFNetworking/AFHTTPRequestOperationManager.h>
 #import "CommonFunc.h"
 #import "JSONSerializeManager.h"
 

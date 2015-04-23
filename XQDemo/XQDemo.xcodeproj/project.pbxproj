@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59EE00A1899B401E7E89565E /* libPods-XQDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B054B509ACC527D46759E15 /* libPods-XQDemo.a */; };
 		5E07D4281A78D12900B4E1E7 /* ShapreLayerControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E07D4261A78D12900B4E1E7 /* ShapreLayerControllerViewController.m */; };
 		5E07D4291A78D12900B4E1E7 /* ShapreLayerControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E07D4271A78D12900B4E1E7 /* ShapreLayerControllerViewController.xib */; };
+		5E1F2D9A1ADB6DA400C0C712 /* HomePageCoverFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F2D991ADB6DA400C0C712 /* HomePageCoverFlowViewController.m */; };
+		5E1F2DA41ADBB15900C0C712 /* HomeDatePageFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F2DA31ADBB15900C0C712 /* HomeDatePageFlowView.m */; };
+		5E1F2DAD1ADBC2A300C0C712 /* HomeDateContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F2DAC1ADBC2A300C0C712 /* HomeDateContainerView.m */; };
+		5E1F2DAF1ADBC95900C0C712 /* HomeDateContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E1F2DAE1ADBC95900C0C712 /* HomeDateContainerView.xib */; };
+		5E776D1A1AC4FB0A005DEBF6 /* ChatTextCellContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E776D191AC4FB0A005DEBF6 /* ChatTextCellContorller.m */; };
+		5E96B11F1ADCC0F80079916C /* HomeDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E96B11E1ADCC0F80079916C /* HomeDateCell.m */; };
+		5E96B1211ADCC1010079916C /* HomeDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E96B1201ADCC1010079916C /* HomeDateCell.xib */; };
+		5ECAFE771ABABADD00ABE01A /* ReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECAFE761ABABADD00ABE01A /* ReplicatorLayerViewController.m */; };
+		5ECAFE7C1ABBCD3700ABE01A /* RACLoginViewContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECAFE7A1ABBCD3700ABE01A /* RACLoginViewContorller.m */; };
+		5ECAFE7D1ABBCD3700ABE01A /* RACLoginViewContorller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ECAFE7B1ABBCD3700ABE01A /* RACLoginViewContorller.xib */; };
 		5EDACBE21A74A9A4001DBD19 /* XQDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACBE11A74A9A4001DBD19 /* XQDemoTests.m */; };
 		5EDACBF51A74AA3E001DBD19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACBED1A74AA3E001DBD19 /* AppDelegate.m */; };
 		5EDACBF81A74AA3E001DBD19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EDACBF21A74AA3E001DBD19 /* Images.xcassets */; };
@@ -27,15 +38,6 @@
 		5EDACCC41A74AE77001DBD19 /* FunLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC281A74AE77001DBD19 /* FunLoadingView.m */; };
 		5EDACCC51A74AE77001DBD19 /* FunLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EDACC291A74AE77001DBD19 /* FunLoadingView.xib */; };
 		5EDACCC61A74AE77001DBD19 /* LoadingViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC2B1A74AE77001DBD19 /* LoadingViewManager.m */; };
-		5EDACCC71A74AE77001DBD19 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC2F1A74AE77001DBD19 /* AFHTTPRequestOperation.m */; };
-		5EDACCC81A74AE77001DBD19 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC311A74AE77001DBD19 /* AFHTTPRequestOperationManager.m */; };
-		5EDACCC91A74AE77001DBD19 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC331A74AE77001DBD19 /* AFHTTPSessionManager.m */; };
-		5EDACCCA1A74AE77001DBD19 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC361A74AE77001DBD19 /* AFNetworkReachabilityManager.m */; };
-		5EDACCCB1A74AE77001DBD19 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC381A74AE77001DBD19 /* AFSecurityPolicy.m */; };
-		5EDACCCC1A74AE77001DBD19 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC3A1A74AE77001DBD19 /* AFURLConnectionOperation.m */; };
-		5EDACCCD1A74AE77001DBD19 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC3C1A74AE77001DBD19 /* AFURLRequestSerialization.m */; };
-		5EDACCCE1A74AE77001DBD19 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC3E1A74AE77001DBD19 /* AFURLResponseSerialization.m */; };
-		5EDACCCF1A74AE77001DBD19 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC401A74AE77001DBD19 /* AFURLSessionManager.m */; };
 		5EDACCD01A74AE77001DBD19 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC431A74AE77001DBD19 /* HMSegmentedControl.m */; };
 		5EDACCD11A74AE77001DBD19 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC461A74AE77001DBD19 /* HPGrowingTextView.m */; };
 		5EDACCD21A74AE77001DBD19 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDACC481A74AE77001DBD19 /* HPTextViewInternal.m */; };
@@ -111,6 +113,23 @@
 		5E07D4251A78D12900B4E1E7 /* ShapreLayerControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapreLayerControllerViewController.h; sourceTree = "<group>"; };
 		5E07D4261A78D12900B4E1E7 /* ShapreLayerControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapreLayerControllerViewController.m; sourceTree = "<group>"; };
 		5E07D4271A78D12900B4E1E7 /* ShapreLayerControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShapreLayerControllerViewController.xib; sourceTree = "<group>"; };
+		5E1F2D981ADB6DA400C0C712 /* HomePageCoverFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageCoverFlowViewController.h; sourceTree = "<group>"; };
+		5E1F2D991ADB6DA400C0C712 /* HomePageCoverFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageCoverFlowViewController.m; sourceTree = "<group>"; };
+		5E1F2DA21ADBB15900C0C712 /* HomeDatePageFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDatePageFlowView.h; sourceTree = "<group>"; };
+		5E1F2DA31ADBB15900C0C712 /* HomeDatePageFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDatePageFlowView.m; sourceTree = "<group>"; };
+		5E1F2DAB1ADBC2A300C0C712 /* HomeDateContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDateContainerView.h; sourceTree = "<group>"; };
+		5E1F2DAC1ADBC2A300C0C712 /* HomeDateContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDateContainerView.m; sourceTree = "<group>"; };
+		5E1F2DAE1ADBC95900C0C712 /* HomeDateContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeDateContainerView.xib; sourceTree = "<group>"; };
+		5E776D181AC4FB0A005DEBF6 /* ChatTextCellContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTextCellContorller.h; sourceTree = "<group>"; };
+		5E776D191AC4FB0A005DEBF6 /* ChatTextCellContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTextCellContorller.m; sourceTree = "<group>"; };
+		5E96B11D1ADCC0F80079916C /* HomeDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeDateCell.h; sourceTree = "<group>"; };
+		5E96B11E1ADCC0F80079916C /* HomeDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeDateCell.m; sourceTree = "<group>"; };
+		5E96B1201ADCC1010079916C /* HomeDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeDateCell.xib; sourceTree = "<group>"; };
+		5ECAFE751ABABADD00ABE01A /* ReplicatorLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		5ECAFE761ABABADD00ABE01A /* ReplicatorLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayerViewController.m; sourceTree = "<group>"; };
+		5ECAFE791ABBCD3700ABE01A /* RACLoginViewContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACLoginViewContorller.h; sourceTree = "<group>"; };
+		5ECAFE7A1ABBCD3700ABE01A /* RACLoginViewContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACLoginViewContorller.m; sourceTree = "<group>"; };
+		5ECAFE7B1ABBCD3700ABE01A /* RACLoginViewContorller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RACLoginViewContorller.xib; sourceTree = "<group>"; };
 		5EDACBC21A74A9A3001DBD19 /* XQDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDACBDB1A74A9A4001DBD19 /* XQDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDACBE01A74A9A4001DBD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,25 +168,6 @@
 		5EDACC291A74AE77001DBD19 /* FunLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunLoadingView.xib; sourceTree = "<group>"; };
 		5EDACC2A1A74AE77001DBD19 /* LoadingViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewManager.h; sourceTree = "<group>"; };
 		5EDACC2B1A74AE77001DBD19 /* LoadingViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewManager.m; sourceTree = "<group>"; };
-		5EDACC2E1A74AE77001DBD19 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		5EDACC2F1A74AE77001DBD19 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		5EDACC301A74AE77001DBD19 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		5EDACC311A74AE77001DBD19 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		5EDACC321A74AE77001DBD19 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		5EDACC331A74AE77001DBD19 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		5EDACC341A74AE77001DBD19 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		5EDACC351A74AE77001DBD19 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		5EDACC361A74AE77001DBD19 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		5EDACC371A74AE77001DBD19 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		5EDACC381A74AE77001DBD19 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		5EDACC391A74AE77001DBD19 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		5EDACC3A1A74AE77001DBD19 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		5EDACC3B1A74AE77001DBD19 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		5EDACC3C1A74AE77001DBD19 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		5EDACC3D1A74AE77001DBD19 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		5EDACC3E1A74AE77001DBD19 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		5EDACC3F1A74AE77001DBD19 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		5EDACC401A74AE77001DBD19 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		5EDACC421A74AE77001DBD19 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
 		5EDACC431A74AE77001DBD19 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 		5EDACC451A74AE77001DBD19 /* HPGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGrowingTextView.h; sourceTree = "<group>"; };
@@ -272,6 +272,9 @@
 		5EDACD171A74B20A001DBD19 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
 		5EDACD181A74B20A001DBD19 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 		5EDACD191A74B20A001DBD19 /* MenuTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewController.xib; sourceTree = "<group>"; };
+		8B054B509ACC527D46759E15 /* libPods-XQDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XQDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCB4B7A9041378F52CC9E6D /* Pods-XQDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XQDemo/Pods-XQDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DD1696C4AF39FCD19CA82E2F /* Pods-XQDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XQDemo/Pods-XQDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +282,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59EE00A1899B401E7E89565E /* libPods-XQDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,12 +306,58 @@
 			path = CAShapeLayer;
 			sourceTree = "<group>";
 		};
+		5E1F2D971ADB6D6300C0C712 /* HomePageCoverFlow */ = {
+			isa = PBXGroup;
+			children = (
+				5E1F2DA11ADBB14500C0C712 /* SubView */,
+				5E1F2D981ADB6DA400C0C712 /* HomePageCoverFlowViewController.h */,
+				5E1F2D991ADB6DA400C0C712 /* HomePageCoverFlowViewController.m */,
+			);
+			path = HomePageCoverFlow;
+			sourceTree = "<group>";
+		};
+		5E1F2DA11ADBB14500C0C712 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				5E1F2DA21ADBB15900C0C712 /* HomeDatePageFlowView.h */,
+				5E1F2DA31ADBB15900C0C712 /* HomeDatePageFlowView.m */,
+				5E1F2DAB1ADBC2A300C0C712 /* HomeDateContainerView.h */,
+				5E1F2DAC1ADBC2A300C0C712 /* HomeDateContainerView.m */,
+				5E1F2DAE1ADBC95900C0C712 /* HomeDateContainerView.xib */,
+				5E96B11D1ADCC0F80079916C /* HomeDateCell.h */,
+				5E96B11E1ADCC0F80079916C /* HomeDateCell.m */,
+				5E96B1201ADCC1010079916C /* HomeDateCell.xib */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		5ECAFE741ABABA9500ABE01A /* CAReplicatorLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5ECAFE751ABABADD00ABE01A /* ReplicatorLayerViewController.h */,
+				5ECAFE761ABABADD00ABE01A /* ReplicatorLayerViewController.m */,
+			);
+			path = CAReplicatorLayer;
+			sourceTree = "<group>";
+		};
+		5ECAFE781ABBCCFD00ABE01A /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				5ECAFE791ABBCD3700ABE01A /* RACLoginViewContorller.h */,
+				5ECAFE7A1ABBCD3700ABE01A /* RACLoginViewContorller.m */,
+				5ECAFE7B1ABBCD3700ABE01A /* RACLoginViewContorller.xib */,
+			);
+			path = RAC;
+			sourceTree = "<group>";
+		};
 		5EDACBB91A74A9A3001DBD19 = {
 			isa = PBXGroup;
 			children = (
 				5EDACBC41A74A9A3001DBD19 /* XQDemo */,
 				5EDACBDE1A74A9A4001DBD19 /* XQDemoTests */,
 				5EDACBC31A74A9A3001DBD19 /* Products */,
+				9CDF0FFB4CE5DCDAB895A529 /* Pods */,
+				8AB9A657EB71F3A3CAF5AB05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -444,7 +494,6 @@
 		5EDACC2C1A74AE77001DBD19 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				5EDACC2D1A74AE77001DBD19 /* AFNetworking */,
 				5EDACC411A74AE77001DBD19 /* HMSegmentedControl */,
 				5EDACC441A74AE77001DBD19 /* HPGrowingTextView */,
 				5EDACC491A74AE77001DBD19 /* Masonry */,
@@ -453,32 +502,6 @@
 				5EDACC671A74AE77001DBD19 /* XMPPCoreDataStorage */,
 			);
 			path = Lib;
-			sourceTree = "<group>";
-		};
-		5EDACC2D1A74AE77001DBD19 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				5EDACC2E1A74AE77001DBD19 /* AFHTTPRequestOperation.h */,
-				5EDACC2F1A74AE77001DBD19 /* AFHTTPRequestOperation.m */,
-				5EDACC301A74AE77001DBD19 /* AFHTTPRequestOperationManager.h */,
-				5EDACC311A74AE77001DBD19 /* AFHTTPRequestOperationManager.m */,
-				5EDACC321A74AE77001DBD19 /* AFHTTPSessionManager.h */,
-				5EDACC331A74AE77001DBD19 /* AFHTTPSessionManager.m */,
-				5EDACC341A74AE77001DBD19 /* AFNetworking.h */,
-				5EDACC351A74AE77001DBD19 /* AFNetworkReachabilityManager.h */,
-				5EDACC361A74AE77001DBD19 /* AFNetworkReachabilityManager.m */,
-				5EDACC371A74AE77001DBD19 /* AFSecurityPolicy.h */,
-				5EDACC381A74AE77001DBD19 /* AFSecurityPolicy.m */,
-				5EDACC391A74AE77001DBD19 /* AFURLConnectionOperation.h */,
-				5EDACC3A1A74AE77001DBD19 /* AFURLConnectionOperation.m */,
-				5EDACC3B1A74AE77001DBD19 /* AFURLRequestSerialization.h */,
-				5EDACC3C1A74AE77001DBD19 /* AFURLRequestSerialization.m */,
-				5EDACC3D1A74AE77001DBD19 /* AFURLResponseSerialization.h */,
-				5EDACC3E1A74AE77001DBD19 /* AFURLResponseSerialization.m */,
-				5EDACC3F1A74AE77001DBD19 /* AFURLSessionManager.h */,
-				5EDACC401A74AE77001DBD19 /* AFURLSessionManager.m */,
-			);
-			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		5EDACC411A74AE77001DBD19 /* HMSegmentedControl */ = {
@@ -642,12 +665,15 @@
 				5EDACD171A74B20A001DBD19 /* MenuTableViewController.h */,
 				5EDACD181A74B20A001DBD19 /* MenuTableViewController.m */,
 				5EDACD191A74B20A001DBD19 /* MenuTableViewController.xib */,
+				5E1F2D971ADB6D6300C0C712 /* HomePageCoverFlow */,
 				5EDACD061A74B0AA001DBD19 /* Chat */,
 				5EDACC8B1A74AE77001DBD19 /* AutoLayout */,
 				5EDACC921A74AE77001DBD19 /* HomePageLayout */,
 				5EDACC951A74AE77001DBD19 /* OneFingerTextInput */,
 				5EDACCA31A74AE77001DBD19 /* SampleTableView */,
 				5E07D4241A78D12900B4E1E7 /* CAShapeLayer */,
+				5ECAFE741ABABA9500ABE01A /* CAReplicatorLayer */,
+				5ECAFE781ABBCCFD00ABE01A /* RAC */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
@@ -786,8 +812,27 @@
 				5EDACD0B1A74B0AA001DBD19 /* ChatTextCell.h */,
 				5EDACD0C1A74B0AA001DBD19 /* ChatTextCell.m */,
 				5EDACD0D1A74B0AA001DBD19 /* ChatTextCell.xib */,
+				5E776D181AC4FB0A005DEBF6 /* ChatTextCellContorller.h */,
+				5E776D191AC4FB0A005DEBF6 /* ChatTextCellContorller.m */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		8AB9A657EB71F3A3CAF5AB05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B054B509ACC527D46759E15 /* libPods-XQDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CDF0FFB4CE5DCDAB895A529 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD1696C4AF39FCD19CA82E2F /* Pods-XQDemo.debug.xcconfig */,
+				BBCB4B7A9041378F52CC9E6D /* Pods-XQDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -797,9 +842,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EDACBE51A74A9A4001DBD19 /* Build configuration list for PBXNativeTarget "XQDemo" */;
 			buildPhases = (
+				BC1A7B81F4D8560DF86875B0 /* Check Pods Manifest.lock */,
 				5EDACBBE1A74A9A3001DBD19 /* Sources */,
 				5EDACBBF1A74A9A3001DBD19 /* Frameworks */,
 				5EDACBC01A74A9A3001DBD19 /* Resources */,
+				554A995440BE035DBFFD7C31 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -870,10 +917,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EDACCEA1A74AE77001DBD19 /* chat_message_failture@2x.png in Resources */,
+				5E96B1211ADCC1010079916C /* HomeDateCell.xib in Resources */,
 				5EDACD041A74AE91001DBD19 /* Default-568h@2x.png in Resources */,
 				5EDACBF81A74AA3E001DBD19 /* Images.xcassets in Resources */,
 				5EDACCF01A74AE77001DBD19 /* fun_loading_bg@2x.png in Resources */,
 				5EDACCEF1A74AE77001DBD19 /* common_nav_bg@2x.png in Resources */,
+				5ECAFE7D1ABBCD3700ABE01A /* RACLoginViewContorller.xib in Resources */,
 				5EDACCE71A74AE77001DBD19 /* chat_emoji@2x.png in Resources */,
 				5EDACCFF1A74AE77001DBD19 /* TestTableViewCell.xib in Resources */,
 				5EDACCE81A74AE77001DBD19 /* chat_emojiX@2x.png in Resources */,
@@ -883,6 +932,7 @@
 				5EDACCE91A74AE77001DBD19 /* chat_input_bg@2x.png in Resources */,
 				5EDACCEB1A74AE77001DBD19 /* chat_protrait_default1@2x.png in Resources */,
 				5EDACCF41A74AE77001DBD19 /* AutoLayoutViewController.xib in Resources */,
+				5E1F2DAF1ADBC95900C0C712 /* HomeDateContainerView.xib in Resources */,
 				5EDACCED1A74AE77001DBD19 /* chat_shetter@2x.png in Resources */,
 				5EDACCE51A74AE77001DBD19 /* chat_bubble_come@2x.png in Resources */,
 				5EDACD1B1A74B20A001DBD19 /* MenuTableViewController.xib in Resources */,
@@ -905,12 +955,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		554A995440BE035DBFFD7C31 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XQDemo/Pods-XQDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC1A7B81F4D8560DF86875B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EDACBBE1A74A9A3001DBD19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5EDACCDE1A74AE77001DBD19 /* XMPPCoreDataStorage.m in Sources */,
+				5ECAFE7C1ABBCD3700ABE01A /* RACLoginViewContorller.m in Sources */,
 				5EDACCBF1A74AE77001DBD19 /* UIView+AnimationOptionsForCurve.m in Sources */,
 				5EDACCF61A74AE77001DBD19 /* HomePageViewController.m in Sources */,
 				5EDACCC61A74AE77001DBD19 /* LoadingViewManager.m in Sources */,
@@ -920,15 +1004,13 @@
 				5E07D4281A78D12900B4E1E7 /* ShapreLayerControllerViewController.m in Sources */,
 				5EDACCD21A74AE77001DBD19 /* HPTextViewInternal.m in Sources */,
 				5EDACCFE1A74AE77001DBD19 /* TestTableViewCell.m in Sources */,
+				5E776D1A1AC4FB0A005DEBF6 /* ChatTextCellContorller.m in Sources */,
 				5EDACCD71A74AE77001DBD19 /* MASViewAttribute.m in Sources */,
 				5EDACCD41A74AE77001DBD19 /* MASConstraint.m in Sources */,
-				5EDACCCC1A74AE77001DBD19 /* AFURLConnectionOperation.m in Sources */,
 				5EDACCD81A74AE77001DBD19 /* MASViewConstraint.m in Sources */,
 				5EDACCD51A74AE77001DBD19 /* MASConstraintMaker.m in Sources */,
 				5EDACD011A74AE77001DBD19 /* HTTPRequestManager.m in Sources */,
-				5EDACCCB1A74AE77001DBD19 /* AFSecurityPolicy.m in Sources */,
 				5EDACCC11A74AE77001DBD19 /* UIViewController+NavigationBarItemFlexiable.m in Sources */,
-				5EDACCC91A74AE77001DBD19 /* AFHTTPSessionManager.m in Sources */,
 				5EDACCBA1A74AE77001DBD19 /* CustomNavigationViewController.m in Sources */,
 				5EDACBFA1A74AA3E001DBD19 /* main.m in Sources */,
 				5EDACD131A74B0AA001DBD19 /* ChatTextCell.m in Sources */,
@@ -941,35 +1023,34 @@
 				5EDACBF51A74AA3E001DBD19 /* AppDelegate.m in Sources */,
 				5EDACCD61A74AE77001DBD19 /* MASLayoutConstraint.m in Sources */,
 				5EDACCD91A74AE77001DBD19 /* NSArray+MASAdditions.m in Sources */,
-				5EDACCC81A74AE77001DBD19 /* AFHTTPRequestOperationManager.m in Sources */,
 				5EDACCBE1A74AE77001DBD19 /* UIColor+Extension.m in Sources */,
 				5EDACD1A1A74B20A001DBD19 /* MenuTableViewController.m in Sources */,
 				5EDACCE01A74AE77001DBD19 /* ChatContentMessageEntity.m in Sources */,
+				5E1F2DAD1ADBC2A300C0C712 /* HomeDateContainerView.m in Sources */,
 				5EDACD021A74AE77001DBD19 /* NetworkCenter.m in Sources */,
 				5EDACCF31A74AE77001DBD19 /* AutoLayoutViewController.m in Sources */,
-				5EDACCC71A74AE77001DBD19 /* AFHTTPRequestOperation.m in Sources */,
-				5EDACCCF1A74AE77001DBD19 /* AFURLSessionManager.m in Sources */,
 				5EDACCDF1A74AE77001DBD19 /* ChatMessageUtil.m in Sources */,
 				5EDACCF71A74AE77001DBD19 /* OneFingerLayoutViewController.m in Sources */,
 				5EDACCDA1A74AE77001DBD19 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				5EDACCBD1A74AE77001DBD19 /* UIButton+CommonButton.m in Sources */,
+				5ECAFE771ABABADD00ABE01A /* ReplicatorLayerViewController.m in Sources */,
+				5E1F2DA41ADBB15900C0C712 /* HomeDatePageFlowView.m in Sources */,
 				5EDACD001A74AE77001DBD19 /* PictureFlowPresentTemp.m in Sources */,
 				5EDACCE11A74AE77001DBD19 /* ChatMessage.xcdatamodeld in Sources */,
 				5EDACCDB1A74AE77001DBD19 /* View+MASAdditions.m in Sources */,
-				5EDACCCA1A74AE77001DBD19 /* AFNetworkReachabilityManager.m in Sources */,
 				5EDACCFD1A74AE77001DBD19 /* PictureFlowViewController.m in Sources */,
 				5EDACD161A74B0AA001DBD19 /* ChatTextView.m in Sources */,
 				5EDACD121A74B0AA001DBD19 /* ChatViewController.m in Sources */,
-				5EDACCCE1A74AE77001DBD19 /* AFURLResponseSerialization.m in Sources */,
 				5EDACCD11A74AE77001DBD19 /* HPGrowingTextView.m in Sources */,
 				5EDACCDD1A74AE77001DBD19 /* SZTextView.m in Sources */,
-				5EDACCCD1A74AE77001DBD19 /* AFURLRequestSerialization.m in Sources */,
+				5E1F2D9A1ADB6DA400C0C712 /* HomePageCoverFlowViewController.m in Sources */,
 				5EDACCC01A74AE77001DBD19 /* UIView+Frame.m in Sources */,
 				5EDACCC31A74AE77001DBD19 /* JSONSerializeManager.m in Sources */,
 				5EDACCD01A74AE77001DBD19 /* HMSegmentedControl.m in Sources */,
 				5EDACCDC1A74AE77001DBD19 /* MBProgressHUD.m in Sources */,
 				5EDACCC21A74AE77001DBD19 /* CommonFunc.m in Sources */,
 				5EDACCBC1A74AE77001DBD19 /* NSObject+transformStringValue.m in Sources */,
+				5E96B11F1ADCC0F80079916C /* HomeDateCell.m in Sources */,
 				5EDACCB91A74AE77001DBD19 /* BaseViewController.m in Sources */,
 				5EDACCF81A74AE77001DBD19 /* BaseFlowInputToolView.m in Sources */,
 				5EDACCF91A74AE77001DBD19 /* BaseFlowTagsView.m in Sources */,
@@ -1073,6 +1154,7 @@
 		};
 		5EDACBE61A74A9A4001DBD19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1696C4AF39FCD19CA82E2F /* Pods-XQDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1086,6 +1168,7 @@
 		};
 		5EDACBE71A74A9A4001DBD19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBCB4B7A9041378F52CC9E6D /* Pods-XQDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

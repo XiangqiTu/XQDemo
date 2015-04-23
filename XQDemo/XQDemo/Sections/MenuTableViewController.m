@@ -13,10 +13,14 @@
 #import "OneFingerLayoutViewController.h"
 #import "PictureFlowViewController.h"
 #import "ShapreLayerControllerViewController.h"
+#import "ReplicatorLayerViewController.h"
+#import "RACLoginViewContorller.h"
+#import "HomePageCoverFlowViewController.h"
 
 @interface MenuTableViewController ()
 
 @property (nonatomic, strong) NSMutableArray    *dataSourceArray;
+@property (nonatomic, strong) NSDictionary      *testDic;
 
 @end
 
@@ -26,11 +30,20 @@
 {
     if (self = [super initWithStyle:style]) {
         self.dataSourceArray = [NSMutableArray array];
-        [self.dataSourceArray addObjectsFromArray:@[@"Chat",@"AutoLayout",@"HomePage",@"OneFingerTransform",@"PicFlow",@"SharpeLayer"]];
+        [self.dataSourceArray addObjectsFromArray:@[@"Chat",
+                                                    @"AutoLayout",
+                                                    @"HomePage",
+                                                    @"OneFingerTransform",
+                                                    @"PicFlow",
+                                                    @"SharpeLayer",
+                                                    @"ReplicatorLayer",
+                                                    @"RACLogin",
+                                                    @"HomePageCoverFlow"]];
     }
     
     return self;
 }
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -101,6 +114,21 @@
         case 5:
         {
             vc = [[ShapreLayerControllerViewController alloc] initWithNibName:nil bundle:nil];
+            break;
+        }
+            case 6:
+        {
+            vc = [[ReplicatorLayerViewController alloc] initWithNibName:nil bundle:nil];
+            break;
+        }
+            case 7:
+        {
+            vc = [[RACLoginViewContorller alloc] initWithNibName:@"RACLoginViewContorller" bundle:[NSBundle mainBundle]];
+            break;
+        }
+            case 8:
+        {
+            vc = [[HomePageCoverFlowViewController alloc] initWithNibName:nil bundle:nil];
             break;
         }
         default:

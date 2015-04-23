@@ -12,6 +12,7 @@
 #import "FunLoadingView.h"
 
 #import "ChatMessageUtil.h"
+#import "ChatTextCellContorller.h"
 
 #define INPUT_HEIGHT 43.0f
 #define k_MESSAGE_LIMIT 20
@@ -36,6 +37,8 @@
 
 @property (nonatomic, strong) ChatContentMessageEntity   *tempChatMessageEntity;
 
+@property (nonatomic, strong) ChatTextCellContorller *tcc;
+
 @end
 
 @implementation ChatViewController
@@ -44,6 +47,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        self.tcc= [[ChatTextCellContorller alloc] init];
         // Custom initialization
         self.dataSourceArray = [NSMutableArray arrayWithCapacity:5];
         self.friendId = @"2";

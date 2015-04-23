@@ -20,6 +20,20 @@ typedef enum {
 {
     int     _style;
 }
+
+//@property (nonatomic,retain)
+//@property (nonatomic, strong)
+//@property (nonatomic, copy)
+//@property (nonatomic, weak)
+//@property (nonatomic,assign)
+
+//__unsafe_unretained
+//__block
+//__bridge
+//__weak
+//__strong
+//__autoreleasing
+
 @property (nonatomic, strong) CAShapeLayer  *maskLayer;
 //@property (nonatomic, strong) CAShapeLayer  *maskBgLayer;
 
@@ -46,6 +60,12 @@ typedef enum {
     [super viewDidAppear:animated];
     
     [self responseToActionButton:nil];
+    
+    [UIView animateWithDuration:.35 animations:^{
+        
+    } completion:^(BOOL finished) {
+        
+    }];
 }
 
 - (IBAction)responseToActionButton:(UIButton *)button
