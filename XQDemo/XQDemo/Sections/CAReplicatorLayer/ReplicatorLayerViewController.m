@@ -11,10 +11,38 @@
 
 @interface ReplicatorLayerViewController ()
 
-@property (nonatomic, strong) CAReplicatorLayer     *musicLayer;
-@property (nonatomic, strong) CAReplicatorLayer     *activityLayer;
+//@property (nonatomic, strong) CAReplicatorLayer     *musicLayer;
+//@property (nonatomic, strong) CAReplicatorLayer     *activityLayer;
 
 @end
+
+@implementation ReplicatorLayerViewController(Fuck)
+
+@dynamic cao; //runtime set &get
+
+- (int)count
+{
+    NSLog(@"category count");
+    return 1;
+}
+
+- (void)setCao:(NSString *)cao
+{
+    
+}
+
+- (NSString *)cao
+{
+    return @"";
+}
+
+- (NSString *)whoIsCao
+{
+    return @"caocaocao";
+}
+
+@end
+
 
 @implementation ReplicatorLayerViewController
 
@@ -23,6 +51,12 @@
     // Do any additional setup after loading the view.
     [self.view setBackgroundColor:[UIColor whiteColor]];
     [self.view.layer addSublayer:self.activityLayer];
+}
+
+- (int)count
+{
+    NSLog(@"extension Count ");
+    return 9;
 }
 
 #pragma mark - MusicLayer
@@ -102,4 +136,5 @@
 
     return _activityLayer;
 }
+
 @end

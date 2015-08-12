@@ -16,6 +16,10 @@
 #import "ReplicatorLayerViewController.h"
 #import "RACLoginViewContorller.h"
 #import "HomePageCoverFlowViewController.h"
+#import "AnimationTabViewController.h"
+#import "CoreTextViewController.h"
+#import "CAGradientLayerViewController.h"
+#import "TextEffectViewController.h"
 
 @interface MenuTableViewController ()
 
@@ -38,13 +42,18 @@
                                                     @"SharpeLayer",
                                                     @"ReplicatorLayer",
                                                     @"RACLogin",
-                                                    @"HomePageCoverFlow"]];
+                                                    @"HomePageCoverFlow",
+                                                    @"AnimationTabViewController",
+                                                    @"CoreTextViewController",
+                                                    @"CAGradientLayerViewController",
+                                                    @"Text Effect"]];
     }
     
     return self;
 }
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     
     self.title = @"Menu";
@@ -119,6 +128,9 @@
             case 6:
         {
             vc = [[ReplicatorLayerViewController alloc] initWithNibName:nil bundle:nil];
+            ReplicatorLayerViewController *temp = [ReplicatorLayerViewController new];
+            NSLog(@"%d",temp.count);
+            temp.count = 1;
             break;
         }
             case 7:
@@ -131,11 +143,30 @@
             vc = [[HomePageCoverFlowViewController alloc] initWithNibName:nil bundle:nil];
             break;
         }
+            case 9:
+        {
+            vc = [[AnimationTabViewController alloc] init];
+            break;
+        }
+            case 10:
+        {
+            vc = [[CoreTextViewController alloc] initWithNibName:@"CoreTextViewController" bundle:[NSBundle mainBundle]];
+            break;
+        }
+            case 11:
+        {
+            vc = [[CAGradientLayerViewController alloc] init];
+            break;
+        }
+            case 12:
+        {
+            vc = [[TextEffectViewController alloc] initWithNibName:nil bundle:nil];
+            break;
+        }
         default:
             vc = [[UIViewController alloc] init];
             break;
     }
-    
     [self.navigationController pushViewController:vc animated:YES];
 }
 

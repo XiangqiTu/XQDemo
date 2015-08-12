@@ -21,19 +21,6 @@ typedef enum {
     int     _style;
 }
 
-//@property (nonatomic,retain)
-//@property (nonatomic, strong)
-//@property (nonatomic, copy)
-//@property (nonatomic, weak)
-//@property (nonatomic,assign)
-
-//__unsafe_unretained
-//__block
-//__bridge
-//__weak
-//__strong
-//__autoreleasing
-
 @property (nonatomic, strong) CAShapeLayer  *maskLayer;
 //@property (nonatomic, strong) CAShapeLayer  *maskBgLayer;
 
@@ -59,19 +46,16 @@ typedef enum {
 {
     [super viewDidAppear:animated];
     
-    [self responseToActionButton:nil];
+    [self showOverlayViewWithStyle:_style];
     
-    [UIView animateWithDuration:.35 animations:^{
-        
-    } completion:^(BOOL finished) {
-        
-    }];
 }
 
 - (IBAction)responseToActionButton:(UIButton *)button
 {
     [self showOverlayViewWithStyle:_style];
     _style ++;
+    
+//    [self.maskLayer setTransform:CATransform3DMakeRotation(_style * 0.4 * M_PI_4, 0, 0, 1)];
 }
 
 - (void)showOverlayViewWithStyle:(E_SharpeLayer_Style)style
@@ -88,9 +72,7 @@ typedef enum {
     
     self.maskLayer.path = [clipPath CGPath];
     
-//    UIBezierPath *maskBgPath = [UIBezierPath bezierPathWithRect:[self maskRectWithStyle:style]];
-//    [self.maskBgLayer addAnimation:pathAnimation forKey:@"path"];
-//    self.maskBgLayer.path = [maskBgPath CGPath];
+    pathAnimation.delegate = self;
     
     [UIView animateWithDuration:0.25
                      animations:^{
@@ -172,4 +154,15 @@ typedef enum {
     return maskRect;
 }
 
+#pragma mark - CAAnimation Delegate
+- (void)animationDidStart:(CAAnimation *)anim
+{
+    
+
+}
+
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
+{
+
+}
 @end

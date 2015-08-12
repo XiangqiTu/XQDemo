@@ -20,6 +20,7 @@
 	if (self == nil) return nil;
 
 	self.name = @"";
+    
 	return self;
 }
 

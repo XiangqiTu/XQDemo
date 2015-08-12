@@ -34,7 +34,7 @@
 {
     CGFloat width = CGRectGetWidth([[UIScreen mainScreen] bounds]);
     CGFloat height = CGRectGetHeight([[UIScreen mainScreen] bounds]);
-    self.segmentedControl = [[HMSegmentedControl alloc] initWithSectionTitles:@[@"全 部", @"关 注", @"动 态"]];
+    self.segmentedControl = [[HMSegmentedControl alloc] initWithSectionTitles:@[@"全 部", @"关 注", @"动 态",@"全 部", @"关 注", @"动 态",@"全 部", @"关 注", @"动 态",@"全 部", @"关 注", @"动 态",@"全 部", @"关 注", @"动 态",@"全 部", @"关 注", @"动 态",@"全 部", @"关 注", @"动 态"]];
     [self.segmentedControl setSelectionStyle:HMSegmentedControlSelectionStyleTextWidthStripe];
     [self.segmentedControl setSegmentWidthStyle:HMSegmentedControlSegmentWidthStyleFixed];
     [self.segmentedControl setSelectionIndicatorLocation:HMSegmentedControlSelectionIndicatorLocationDown];
