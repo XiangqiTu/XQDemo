@@ -16,33 +16,6 @@
 
 @end
 
-@implementation ReplicatorLayerViewController(Fuck)
-
-@dynamic cao; //runtime set &get
-
-- (int)count
-{
-    NSLog(@"category count");
-    return 1;
-}
-
-- (void)setCao:(NSString *)cao
-{
-    
-}
-
-- (NSString *)cao
-{
-    return @"";
-}
-
-- (NSString *)whoIsCao
-{
-    return @"caocaocao";
-}
-
-@end
-
 
 @implementation ReplicatorLayerViewController
 

@@ -37,17 +37,3 @@
 @property (nonatomic, strong) CAReplicatorLayer     *activityLayer;
 
 @end
-
-//Category
-@interface ReplicatorLayerViewController (Fuck)
-
-@property (nonatomic, readonly) int count;
-@property (nonatomic, strong) NSString *cao;
-
-- (NSString *)whoIsCao;
-
-@end
-
-@interface UINavigationController (custom)
-
-@end
